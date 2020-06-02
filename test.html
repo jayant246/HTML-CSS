@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="test.css">
+	<style>
+		.container {
+			display: flex;
+			flex-wrap:wrap;
+		}
+		.container > div{
+			background-color: green;
+			width: 200px;
+			height: 50px;
+			font-size: 20px;
+			font-weight: 500;
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+			line-height: 50px;
+			border: 2px solid;
+		}
+		.grid{
+			display: grid;
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;
+			padding: 20px;
+			grid-template-columns: auto auto auto;
+			background-color: blue;
+		}
+		.grid-items{
+			background-color: yellow;
+			margin: 20px;
+			padding: 20px;
+			text-align: center;
+			font-weight: 900;
+			font-size: 30px;
+			border: 5px solid;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div>1This is my heading</div>
+		<div>2This is my heading</div>
+		<div>3This is my heading</div>
+		<div>4this is my heading</div>
+		<div>this is my heading</div>
+		<div>this is my heading</div>
+		<div>this is my heading</div>
+		<div>this is my heading</div>
+		<div>this is my heading</div>
+		<div>this is my heading</div>
+	</div>
+	<div class="grid">
+		<div class="grid-items">1</div>
+		<div class="grid-items">2</div>
+		<div class="grid-items">3</div>
+		<div class="grid-items">4</div>
+		<div class="grid-items">5</div>
+		<div class="grid-items">6</div>
+		<div class="grid-items">7</div>
+		<div class="grid-items">8</div>
+		<div class="grid-items">9</div>
+		<div class="grid-items">10</div>
+		<div class="grid-items">11</div>
+		<div class="grid-items">12</div>
+	</div>
+	<div class="one">
+		<p>1</p>
+	</div>
+	<div class="two">
+		<p>2</p>
+	</div>
+	<div class="three">
+		<p>3</p>
+	</div>
+</body>
+</html>
